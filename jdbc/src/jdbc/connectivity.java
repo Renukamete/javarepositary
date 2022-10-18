@@ -1,3 +1,4 @@
+
 package jdbc;
 
 import java.sql.Connection;
@@ -17,6 +18,7 @@ public class connectivity {
 		
 		Statement s=con.createStatement();
 		System.out.println("data inserted");
+		
 		s.execute(sql);
 		s.close();
 		con.close();
